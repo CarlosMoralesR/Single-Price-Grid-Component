@@ -39,14 +39,17 @@ section {
 
 .item-1 h2 {
     color: hsl(179, 62%, 43%);
+    margin-bottom: 15px;
 }
 
 .item-1 h3 {
     color: hsl(71, 73%, 54%);
+    margin-bottom: 15px;
 }
 
 .item-1 p {
     color: hsl(218, 22%, 67%);
+    line-height: 1.5;
 }
 
 .item-2 {
@@ -55,14 +58,17 @@ section {
 
 .item-2 h3 {
     color: white;
+    font-weight: 700;
+    margin-bottom: 15px;
 }
 
 .item-2 p {
     color: hsl(204, 43%, 93%);
+    margin-bottom: 15px;
 }
 
 .item-2 span {
-    font-size: 2rem;
+    font-size: 1.8rem;
     font-weight: 700;
 }
 
@@ -74,7 +80,7 @@ section {
     color: white;
     display: inline-block;
     text-decoration: none;
-    font-weight: 500;
+    font-weight: 700;
     font-size: 1.2rem;
 }
 
@@ -83,13 +89,15 @@ section {
 }
 
 .item-3 h3 {
-    font-weight: 500;
+    font-weight: 700;
     color: white;
     margin-bottom: 15px;
 }
 
 .item-3 p {
     color: hsl(218, 22%, 67%);
+    line-height: 1.5;
+    font-weight: 500;
 }
 
 @media only screen and (min-width: 768px){
